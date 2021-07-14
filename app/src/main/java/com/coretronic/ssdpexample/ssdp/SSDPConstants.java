@@ -11,6 +11,8 @@ public class SSDPConstants {
     public static final String MAN = "Man:\"ssdp:discover\"";
     public static final String NEWLINE = "\r\n";
     public static final String ST_Product = "ST:urn:schemas-upnp-org:device:Server:1";
+    public static final String ST_ALL="ST: ssdp:all";
+    public static final String ST_Media="ST:urn:schemas-upnp-org:device:MediaRenderer:1";
     public static final String Found = "ST=urn:schemas-upnp-org:device:";
     public static final String Root = "ST: urn:schemas-upnp-org:device:Server:1";
     public static final String ALL = "ST:miivii";

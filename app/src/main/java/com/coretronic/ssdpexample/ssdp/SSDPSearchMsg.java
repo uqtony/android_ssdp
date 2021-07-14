@@ -7,7 +7,7 @@ import static com.coretronic.ssdpexample.ssdp.SSDPConstants.*;
  * Msg的实体类，格式详见toString()
  */
 public class SSDPSearchMsg {
-    private int mMX = 5; /* seconds to delay response */
+    private int mMX = 10; /* seconds to delay response */
     private String mST; /* Search target */
 
     public SSDPSearchMsg(String ST) {
